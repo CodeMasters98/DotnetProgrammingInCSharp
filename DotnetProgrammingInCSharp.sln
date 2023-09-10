@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-2.ShowCollectionInWindow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-3.ShowDataInCombo", "03-3.ShowDataInCombo\03-3.ShowDataInCombo.csproj", "{088D0310-E3A2-4C4C-8C67-3F4FA077EDED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.GenericInCSharp", "14.GenericInCSharp\14.GenericInCSharp.csproj", "{F18ADD4E-B08E-473D-A84F-33B18A97AFFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{088D0310-E3A2-4C4C-8C67-3F4FA077EDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{088D0310-E3A2-4C4C-8C67-3F4FA077EDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{088D0310-E3A2-4C4C-8C67-3F4FA077EDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18ADD4E-B08E-473D-A84F-33B18A97AFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18ADD4E-B08E-473D-A84F-33B18A97AFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18ADD4E-B08E-473D-A84F-33B18A97AFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18ADD4E-B08E-473D-A84F-33B18A97AFFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
