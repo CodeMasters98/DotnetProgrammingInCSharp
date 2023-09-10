@@ -17,13 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.AbstactClassInCSharp", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.PartialClassInCSharp", "PartialClassInCSharp\06.PartialClassInCSharp.csproj", "{35E1986A-417F-41D4-A9FB-48683702CD57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ExterntionMethodInCSharp", "10.ExterntionMethodInCSharp\10.ExterntionMethodInCSharp.csproj", "{37DAF19D-DD12-41C0-8CB5-3FEA86B3F4AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.ExterntionMethodInCSharp", "10.ExterntionMethodInCSharp\10.ExterntionMethodInCSharp.csproj", "{37DAF19D-DD12-41C0-8CB5-3FEA86B3F4AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.BaseVsThisInCSharp", "BaseVsThisInCSharp\11.BaseVsThisInCSharp.csproj", "{1E91E72D-5C60-494F-AE5E-2F73F2326271}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.BaseVsThisInCSharp", "BaseVsThisInCSharp\11.BaseVsThisInCSharp.csproj", "{1E91E72D-5C60-494F-AE5E-2F73F2326271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.EnumInCSharp", "EnumInCSharp\12.EnumInCSharp.csproj", "{EB2843F9-CBF2-446C-9532-DCA8CFB82856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.EnumInCSharp", "EnumInCSharp\12.EnumInCSharp.csproj", "{EB2843F9-CBF2-446C-9532-DCA8CFB82856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.StringCompareInCSharp", "13.StringCompareInCSharp\13.StringCompareInCSharp.csproj", "{43728D8F-A0C3-4311-9885-671528B89488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.StringCompareInCSharp", "13.StringCompareInCSharp\13.StringCompareInCSharp.csproj", "{43728D8F-A0C3-4311-9885-671528B89488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-2.ShowCollectionInWindowsFormApplication", "03-2.ShowCollectionInWindowsFormApplication\03-2.ShowCollectionInWindowsFormApplication.csproj", "{2574D7EB-D27D-4FEC-90C0-DC0A6037C1E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-3.ShowDataInCombo", "03-3.ShowDataInCombo\03-3.ShowDataInCombo.csproj", "{088D0310-E3A2-4C4C-8C67-3F4FA077EDED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{43728D8F-A0C3-4311-9885-671528B89488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43728D8F-A0C3-4311-9885-671528B89488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43728D8F-A0C3-4311-9885-671528B89488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2574D7EB-D27D-4FEC-90C0-DC0A6037C1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2574D7EB-D27D-4FEC-90C0-DC0A6037C1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2574D7EB-D27D-4FEC-90C0-DC0A6037C1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2574D7EB-D27D-4FEC-90C0-DC0A6037C1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088D0310-E3A2-4C4C-8C67-3F4FA077EDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088D0310-E3A2-4C4C-8C67-3F4FA077EDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088D0310-E3A2-4C4C-8C67-3F4FA077EDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088D0310-E3A2-4C4C-8C67-3F4FA077EDED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
