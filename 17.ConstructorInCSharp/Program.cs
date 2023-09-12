@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
-using _17.ConstructorInCSharp.Models;
+﻿using _17.ConstructorInCSharp.Models;
 
 Person person = new Person();
 person.FirstName = "Parham";
