@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.OutRefInCSharp", "21.Out
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.ReadFromFileInCSharp", "22.ReadFromFileInCSharp\22.ReadFromFileInCSharp.csproj", "{96B2D107-634E-42FC-A71F-45580EF01E6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.WorkWithControls", "23.WorkWithControls\23.WorkWithControls.csproj", "{77D6335E-2237-436C-B50F-34F8C09A3630}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{96B2D107-634E-42FC-A71F-45580EF01E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96B2D107-634E-42FC-A71F-45580EF01E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96B2D107-634E-42FC-A71F-45580EF01E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D6335E-2237-436C-B50F-34F8C09A3630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D6335E-2237-436C-B50F-34F8C09A3630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D6335E-2237-436C-B50F-34F8C09A3630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D6335E-2237-436C-B50F-34F8C09A3630}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
