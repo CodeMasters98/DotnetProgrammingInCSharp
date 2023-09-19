@@ -1,6 +1,4 @@
-﻿using System.IO;
-using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using ReadAndMapFromJsonInCSharp;
 
 public class Program
