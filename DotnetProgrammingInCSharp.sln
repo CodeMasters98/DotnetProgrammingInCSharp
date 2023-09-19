@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.ReadFromFileInCSharp", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.WorkWithControls", "23.WorkWithControls\23.WorkWithControls.csproj", "{77D6335E-2237-436C-B50F-34F8C09A3630}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndMapFromJsonInCSharp", "ReadAndMapFromJsonInCSharp\ReadAndMapFromJsonInCSharp.csproj", "{91ED7847-E317-4742-9C10-24ABF357607D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{77D6335E-2237-436C-B50F-34F8C09A3630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D6335E-2237-436C-B50F-34F8C09A3630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D6335E-2237-436C-B50F-34F8C09A3630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91ED7847-E317-4742-9C10-24ABF357607D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91ED7847-E317-4742-9C10-24ABF357607D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91ED7847-E317-4742-9C10-24ABF357607D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91ED7847-E317-4742-9C10-24ABF357607D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

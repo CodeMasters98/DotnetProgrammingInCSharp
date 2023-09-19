@@ -36,6 +36,9 @@
             membersToolStripMenuItem = new ToolStripMenuItem();
             addNewMemberToolStripMenuItem = new ToolStripMenuItem();
             showCurrentListToolStripMenuItem1 = new ToolStripMenuItem();
+            listView1 = new ListView();
+            richTextBox1 = new RichTextBox();
+            checkedListBox1 = new CheckedListBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -96,11 +99,38 @@
             showCurrentListToolStripMenuItem1.Text = "Show Current List";
             showCurrentListToolStripMenuItem1.Click += showCurrentListToolStripMenuItem1_Click;
             // 
+            // listView1
+            // 
+            listView1.Location = new Point(12, 52);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(247, 97);
+            listView1.TabIndex = 1;
+            listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.Location = new Point(282, 52);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(100, 96);
+            richTextBox1.TabIndex = 2;
+            richTextBox1.Text = "";
+            // 
+            // checkedListBox1
+            // 
+            checkedListBox1.FormattingEnabled = true;
+            checkedListBox1.Location = new Point(12, 164);
+            checkedListBox1.Name = "checkedListBox1";
+            checkedListBox1.Size = new Size(120, 94);
+            checkedListBox1.TabIndex = 3;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(checkedListBox1);
+            Controls.Add(richTextBox1);
+            Controls.Add(listView1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
@@ -121,5 +151,8 @@
         private ToolStripMenuItem membersToolStripMenuItem;
         private ToolStripMenuItem addNewMemberToolStripMenuItem;
         private ToolStripMenuItem showCurrentListToolStripMenuItem1;
+        private ListView listView1;
+        private RichTextBox richTextBox1;
+        private CheckedListBox checkedListBox1;
     }
 }
