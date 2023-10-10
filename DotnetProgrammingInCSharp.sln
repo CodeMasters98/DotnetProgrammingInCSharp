@@ -45,11 +45,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19.CreateImmutableClassInCS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.OutRefInCSharp", "21.OutRefInCSharp\21.OutRefInCSharp.csproj", "{33B273F2-E909-4356-8489-FFAFC800A329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.ReadFromFileInCSharp", "22.ReadFromFileInCSharp\22.ReadFromFileInCSharp.csproj", "{96B2D107-634E-42FC-A71F-45580EF01E6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22.ReadFromFileInCSharp", "22.ReadFromFileInCSharp\22.ReadFromFileInCSharp.csproj", "{96B2D107-634E-42FC-A71F-45580EF01E6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.WorkWithControls", "23.WorkWithControls\23.WorkWithControls.csproj", "{77D6335E-2237-436C-B50F-34F8C09A3630}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23.WorkWithControls", "23.WorkWithControls\23.WorkWithControls.csproj", "{77D6335E-2237-436C-B50F-34F8C09A3630}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndMapFromJsonInCSharp", "ReadAndMapFromJsonInCSharp\ReadAndMapFromJsonInCSharp.csproj", "{91ED7847-E317-4742-9C10-24ABF357607D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAndMapFromJsonInCSharp", "ReadAndMapFromJsonInCSharp\ReadAndMapFromJsonInCSharp.csproj", "{91ED7847-E317-4742-9C10-24ABF357607D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25.DelegateInCSharp", "25.DelegateInCSharp\25.DelegateInCSharp.csproj", "{34A333C7-17CD-4E0F-A755-61E2AA606AA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{91ED7847-E317-4742-9C10-24ABF357607D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91ED7847-E317-4742-9C10-24ABF357607D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91ED7847-E317-4742-9C10-24ABF357607D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A333C7-17CD-4E0F-A755-61E2AA606AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A333C7-17CD-4E0F-A755-61E2AA606AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A333C7-17CD-4E0F-A755-61E2AA606AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A333C7-17CD-4E0F-A755-61E2AA606AA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
