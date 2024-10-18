@@ -14,6 +14,9 @@ namespace _23.WorkWithControls
         {
             AddMember member = new AddMember();
             member.Show();
+
+            //this.Hide();
+            //this.Close();
         }
 
         private void addNewBookToolStripMenuItem_Click(object sender, EventArgs e)
