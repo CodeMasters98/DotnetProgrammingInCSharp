@@ -1,0 +1,19 @@
+{
+  "Items": [
+    {
+      "Name": "Car 1",
+      "Count": 1,
+      "IsAvaible": true
+    },
+    {
+      "Name": "Car 2",
+      "Count": 2,
+      "IsAvaible": false
+    },
+    {
+      "Name": "Car 3",
+      "Count": 3,
+      "IsAvaible": true
+    }
+  ]
+}

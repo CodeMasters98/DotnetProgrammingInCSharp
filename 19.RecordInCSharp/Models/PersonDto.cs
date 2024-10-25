@@ -11,4 +11,6 @@ namespace _19.RecordInCSharp.Models
         public int Id { get; set; }
         public string Name { get; set; }
     }
+
+    public record ProductDto2(int Id,string Name);
 }
