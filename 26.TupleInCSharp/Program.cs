@@ -6,6 +6,7 @@
         static void Main(string[] args)
         {
             var author = TupleReturnLiteral(1000);
+            author.GetType();
             Console.WriteLine($"Author {author.Item1} {author.Item2} {author.Item3} ");
         }
 
