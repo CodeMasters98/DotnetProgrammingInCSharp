@@ -11,6 +11,15 @@ namespace _31.CustomEventForReloading
 
     internal class Program
     {
+        int age = 0;
+
+
+
+
+
+
+
+
         // Declare the Delegate.
         public delegate void ReloadData();
 
