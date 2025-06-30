@@ -49,11 +49,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22.ReadFromFileInCSharp", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23.WorkWithControls", "23.WorkWithControls\23.WorkWithControls.csproj", "{77D6335E-2237-436C-B50F-34F8C09A3630}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadAndMapFromJsonInCSharp", "ReadAndMapFromJsonInCSharp\ReadAndMapFromJsonInCSharp.csproj", "{91ED7847-E317-4742-9C10-24ABF357607D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndMapFromJsonInCSharp", "ReadAndMapFromJsonInCSharp\ReadAndMapFromJsonInCSharp.csproj", "{91ED7847-E317-4742-9C10-24ABF357607D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25.DelegateInCSharp", "25.DelegateInCSharp\25.DelegateInCSharp.csproj", "{34A333C7-17CD-4E0F-A755-61E2AA606AA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-02.DelegateInCSharp", "25.DelegateInCSharp\25-02.DelegateInCSharp.csproj", "{34A333C7-17CD-4E0F-A755-61E2AA606AA3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26.TupleInCSharp", "26.TupleInCSharp\26.TupleInCSharp.csproj", "{BA4A0298-2E4D-458F-9D99-04CDC4317EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-01.DelegateInCSharp", "25-01.DelegateInCSharp\25-01.DelegateInCSharp.csproj", "{1B89BCED-46AA-4C66-B627-6D674BAAAD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-03.DelegateInCSharp", "25-03.DelegateInCSharp\25-03.DelegateInCSharp.csproj", "{367FCAFB-95ED-4940-8A74-F515088DD73D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +169,14 @@ Global
 		{BA4A0298-2E4D-458F-9D99-04CDC4317EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA4A0298-2E4D-458F-9D99-04CDC4317EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA4A0298-2E4D-458F-9D99-04CDC4317EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B89BCED-46AA-4C66-B627-6D674BAAAD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B89BCED-46AA-4C66-B627-6D674BAAAD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B89BCED-46AA-4C66-B627-6D674BAAAD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B89BCED-46AA-4C66-B627-6D674BAAAD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367FCAFB-95ED-4940-8A74-F515088DD73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367FCAFB-95ED-4940-8A74-F515088DD73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367FCAFB-95ED-4940-8A74-F515088DD73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367FCAFB-95ED-4940-8A74-F515088DD73D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
