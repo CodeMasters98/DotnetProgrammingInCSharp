@@ -9,6 +9,19 @@
             person.FirstName = "Parham";
             person.LastName = "Darvishi";
             person.PhoneNumber = "09129564205";
+
+            Person person2 = new();
+            person2.Age = 26;
+            person2.FirstName = "Parham";
+            person2.LastName = "Darvishi";
+            person2.PhoneNumber = "09129564205";
+
+            Person person3 = new()
+            {
+                FirstName = "Parham",
+                LastName = "Darvishi",
+                PhoneNumber = "09129564205"
+            };
         }
     }
 

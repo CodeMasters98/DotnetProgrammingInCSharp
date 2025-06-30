@@ -6,10 +6,12 @@ public class Program
     {
         a = 10;
     }
+
     public static void change(ref int d)
     {
         d = 11;
     }
+
     public static void Main()
     {
         int b;

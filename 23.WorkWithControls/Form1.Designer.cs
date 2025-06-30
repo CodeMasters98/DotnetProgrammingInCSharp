@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             menuStrip1 = new MenuStrip();
             homeToolStripMenuItem = new ToolStripMenuItem();
             booksToolStripMenuItem = new ToolStripMenuItem();
@@ -39,6 +40,7 @@
             listView1 = new ListView();
             richTextBox1 = new RichTextBox();
             checkedListBox1 = new CheckedListBox();
+            contextMenuStrip1 = new ContextMenuStrip(components);
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -67,14 +69,14 @@
             // addNewBookToolStripMenuItem
             // 
             addNewBookToolStripMenuItem.Name = "addNewBookToolStripMenuItem";
-            addNewBookToolStripMenuItem.Size = new Size(180, 22);
+            addNewBookToolStripMenuItem.Size = new Size(167, 22);
             addNewBookToolStripMenuItem.Text = "Add New Book";
             addNewBookToolStripMenuItem.Click += addNewBookToolStripMenuItem_Click;
             // 
             // showCurrentListToolStripMenuItem
             // 
             showCurrentListToolStripMenuItem.Name = "showCurrentListToolStripMenuItem";
-            showCurrentListToolStripMenuItem.Size = new Size(180, 22);
+            showCurrentListToolStripMenuItem.Size = new Size(167, 22);
             showCurrentListToolStripMenuItem.Text = "Show Current List";
             showCurrentListToolStripMenuItem.Click += showCurrentListToolStripMenuItem_Click;
             // 
@@ -123,6 +125,11 @@
             checkedListBox1.Size = new Size(120, 94);
             checkedListBox1.TabIndex = 3;
             // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(181, 26);
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -154,5 +161,6 @@
         private ListView listView1;
         private RichTextBox richTextBox1;
         private CheckedListBox checkedListBox1;
+        private ContextMenuStrip contextMenuStrip1;
     }
 }
