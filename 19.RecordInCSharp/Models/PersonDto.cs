@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _19.RecordInCSharp.Models
+﻿namespace _19.RecordInCSharp.Models
 {
     public record PersonDto
     {
@@ -12,5 +6,9 @@ namespace _19.RecordInCSharp.Models
         public string Name { get; set; }
     }
 
-    public record ProductDto2(int Id,string Name);
+    //Creates immutable properties.
+    //Implements value-based equality.
+    //Generates a Deconstruct method.
+
+    public record ProductDto2(int Id, string Name);
 }
